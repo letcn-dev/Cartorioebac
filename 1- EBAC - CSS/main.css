@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header{
+    background-color: #2f3640;
+    padding: 16px 0;
+    color: #f5f6fa;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+header li{
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+header li a{
+    color: #f5f6fa;
+    text-decoration: none;
+}
+
+
+/* img{
+    height: 300px;
+    width: 500px;
+}*/
+
+.container{
+    margin: 0 auto;
+    width: 1366px;
+}
+
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article{
+    width: 30%;
+} 
+
+.articles article img{
+    /*height: 180px;*/
+    width: 100%;
+}
+
+.articles article h3{
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-size: 24px;
+}
+
+.articles article a{
+    background-color: blue;
+    color: #fff;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.articles article a:hover{
+    text-decoration: underline;
+}
+
+.articles article p,
+.articles article a{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section{
+    padding: 16px 0;
+}
+
+section h2,
+.articles article{
+    margin-bottom: 8px;
+}
+section h2{
+    font-size: 32px;
+}
+
+#sports{
+    background-color: rgba(0, 255, 0 , 0.1);
+}
+
+#sports a{
+    background-color: #009432;
+}
+#sports a:hover{
+    background-color: rgb(108, 224, 93);
+}
+
+#economy{
+    background-color: rgba(255, 255, 0, 0.1);
+}
+
+#economy a{
+    background-color: rgb(233, 233, 58);
+}
+
+#economy a:hover{
+    background-color: rgb(228, 230, 113);
+}
+
+#tecnology{
+    background-color: rgba(0, 0, 255, 0.1);
+}
+
+#tecnology a{
+    background-color: rgb(6, 15, 70);
+}
+
+#tecnology a:hover{
+    background-color: rgb(56, 119, 235);
+}
+
+#entertaiment{
+    background-color: rgba(158, 7, 37, 0.1);
+}
+
+#entertaiment a{
+    background-color: rgb(228, 17, 133);
+}
+
+#entertaiment a:hover{
+    background-color: rgb(233, 94, 170);
+}
